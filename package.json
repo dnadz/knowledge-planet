@@ -1,0 +1,1 @@
+{"name":"knowledge-planet-ocean","version":"0.1.0","private":true,"type":"module","scripts":{"start":"node server.mjs","test":"node --test test/*.test.mjs","check":"node --check src/app.mjs && node --check src/ocean.mjs && node --check src/learning.mjs && node --check server.mjs"},"dependencies":{"phaser":"4.2.1"}}

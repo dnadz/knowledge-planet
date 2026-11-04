@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>知识星球 · 海洋远航</title><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="feeding.css"></head>
+<body>
+<header class="topbar"><a class="brand" href="./"><span class="planet-logo">◒</span><span>知识星球<small>让好奇心，游得更远</small></span></a><nav aria-label="学科区域"><span class="nav-current">海洋 · 数学</span><span class="future">陆地 · 物理与化学</span><span class="future">天空 · 高等数学</span></nav><button id="journal" class="quiet">航行手册 ↗</button></header>
+<main class="layout">
+<aside class="map-panel"><div class="section-label">你的第一片海洋</div><h1>珊瑚海域</h1><p class="muted">七年级数学 · 上册</p><div class="route" id="route"><button class="route-stop active" aria-current="step"><span class="stop-number">1</span><span><b>基准浅湾</b><small>有理数 · 首片可玩海域</small></span><i>探索中</i></button></div><div class="map-note"><span>⌁</span><p>每学会一点，<br>世界就再大一点。</p></div><button id="progress-button" class="outline wide">查看我的航海记录</button></aside>
+<section class="expedition"><div class="expedition-heading"><div><div class="section-label">第一站 / 有理数</div><h2>基准浅湾 <span>珊瑚正在等你</span></h2></div><span class="status-pill"><i></i> 自由探索</span></div>
+<div class="ocean-frame"><div id="game" aria-label="海龟探索游戏：使用方向键或WASD移动" tabindex="0"></div><div class="hud"><div class="creature-tag"><span>♧</span><div><b>小海龟</b><small>幼体 · 初一</small></div></div><div class="energy"><div><span>成长能量</span><b id="energy-value">0 / 10</b></div><div class="energy-track"><span id="energy-fill"></span></div></div><button id="pause" class="pause" aria-label="暂停游戏">Ⅱ</button></div><div id="game-notice" class="game-notice" role="status">游进浅湾，开始你的第一次探索</div><button id="interact" class="interaction" hidden>进入庇护所</button><div id="pause-overlay" class="pause-overlay" hidden><b>海洋正在等你</b><span>休息一下，准备好再继续。</span><button id="resume" class="primary">继续探索</button></div><div class="touch-controls" aria-label="触控方向"><button data-dir="up" aria-label="向上">↑</button><div><button data-dir="left" aria-label="向左">←</button><button data-dir="down" aria-label="向下">↓</button><button data-dir="right" aria-label="向右">→</button></div></div></div>
+<div class="control-strip"><span><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> / 方向键游动</span><span>按住海面也能游动</span><span><i class="legend-dot"></i>小鱼补充能量</span><button id="shelter-shortcut">前往珊瑚书屋 ↗</button></div>
+<section class="learning-trail"><div class="trail-title"><h3>这一站，认识数的位置</h3><p>先探索，再理解，最后独立挑战。</p></div><div class="trail-steps"><span class="done">① 探索海洋</span><span id="learn-step">② 在庇护所学习</span><span id="boss-step">③ 挑战金枪鱼</span></div></section>
+</section>
+<aside class="mission-panel"><div class="section-label">本次航行</div><h2>小小探索家</h2><div class="turtle-portrait" aria-hidden="true">🐢</div><p class="quote">慢慢游，也能去很远。</p><div class="mission-divider"></div><h3>你的航行目标</h3><ul class="goals"><li id="goal-food"><span>○</span><div><b>补充成长能量</b><small>寻找发光的小鱼，避开大鱼。</small></div></li><li id="goal-learn"><span>○</span><div><b>发现数轴的秘密</b><small>进入珊瑚书屋，认识位置与距离。</small></div></li><li id="goal-boss"><span>○</span><div><b>取得浅湾通行徽章</b><small>独立完成金枪鱼的三个挑战。</small></div></li></ul><button id="challenge" class="primary wide">挑战金枪鱼 <span>⚑</span></button><p class="small-note">挑战时海洋会暂停，放心思考。</p><div class="knowledge-note"><b>海洋小发现</b><p>位置可以是负数，<br>但到原点的距离不会是负数。</p></div></aside>
+</main><footer><span>知识星球 · 海洋远航 0.1</span><span>首版探索：正负数、数轴、相反数与绝对值</span><span id="save-status" role="status">进度保存在这台设备</span></footer>
+<dialog id="panel"><div class="dialog-top"><span id="panel-tag" class="section-label">珊瑚书屋</span><button id="close-panel" class="close" aria-label="关闭">×</button></div><div id="panel-content"></div></dialog>
+<script src="node_modules/phaser/dist/phaser.min.js"></script><script type="module" src="src/app.mjs"></script>
+</body></html>
+
+

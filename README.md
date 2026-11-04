@@ -34,4 +34,3 @@ npm test
 | `scripts/` | 本地诊断和资源检查 |
 
 课程内容来源及适用许可见 [第三方声明](THIRD_PARTY_NOTICES.md)。本仓库发布游戏源码、教学内容和运行素材。
-
