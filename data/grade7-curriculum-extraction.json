@@ -1,0 +1,939 @@
+{
+  "status": "draft-not-textbook-page-verified",
+  "sourceRepository": "https://github.com/dnadz/xunli",
+  "textbookMetadata": {
+    "id": "pep-7a-2022-revision",
+    "title": "数学七年级上册",
+    "publisher": "人民教育出版社",
+    "edition": "根据2022年版课程标准修订",
+    "pages": 202,
+    "printedPageOffset": 7,
+    "source": "用户提供的教材PDF，本机学习副本；出版社与目录已核对。未推断印次和出版年份。",
+    "chapters": [
+      {
+        "id": "1",
+        "title": "有理数",
+        "page": 1
+      },
+      {
+        "id": "2",
+        "title": "有理数的运算",
+        "page": 24
+      },
+      {
+        "id": "3",
+        "title": "代数式",
+        "page": 68
+      },
+      {
+        "id": "4",
+        "title": "整式的加减",
+        "page": 88
+      },
+      {
+        "id": "5",
+        "title": "一元一次方程",
+        "page": 110
+      },
+      {
+        "id": "6",
+        "title": "几何图形初步",
+        "page": 149
+      },
+      {
+        "id": "practice",
+        "title": "综合与实践",
+        "page": 63
+      }
+    ],
+    "sections": [
+      {
+        "id": "1.1",
+        "chapter": "1",
+        "title": "正数和负数",
+        "page": 2,
+        "nodes": [
+          "rational-numbers"
+        ],
+        "question": "同一个数值，为什么需要用正负号区分方向？先选一个明确的基准。"
+      },
+      {
+        "id": "1.2",
+        "chapter": "1",
+        "title": "有理数及其大小比较",
+        "page": 7,
+        "nodes": [
+          "rational-numbers",
+          "number-line",
+          "opposite-number",
+          "absolute-value"
+        ],
+        "question": "从认识数，到表示数，再到比较数，哪些旧知识能接起来？"
+      },
+      {
+        "id": "1.2.1",
+        "chapter": "1",
+        "title": "有理数的概念",
+        "page": 7,
+        "nodes": [
+          "rational-numbers"
+        ],
+        "question": "一个有限小数怎样写成两个整数相除？分母为什么不能为零？"
+      },
+      {
+        "id": "1.2.2",
+        "chapter": "1",
+        "title": "数轴",
+        "page": 8,
+        "nodes": [
+          "number-line"
+        ],
+        "question": "如果改变单位长度，点的位置与表示的数会怎样变化？"
+      },
+      {
+        "id": "1.2.3",
+        "chapter": "1",
+        "title": "相反数",
+        "page": 11,
+        "nodes": [
+          "opposite-number",
+          "number-line"
+        ],
+        "question": "关于原点对称的两个位置有什么关系？零有没有相反数？"
+      },
+      {
+        "id": "1.2.4",
+        "chapter": "1",
+        "title": "绝对值",
+        "page": 13,
+        "nodes": [
+          "absolute-value",
+          "number-line"
+        ],
+        "question": "位置可以带方向，距离为什么没有负值？先用数轴解释，再写成式子。"
+      },
+      {
+        "id": "1.2.5",
+        "chapter": "1",
+        "title": "有理数的大小比较",
+        "page": 14,
+        "nodes": [
+          "number-line",
+          "absolute-value"
+        ],
+        "question": "两个负数中，离原点更远的那个一定更大吗？画图检查。"
+      },
+      {
+        "id": "2.1",
+        "chapter": "2",
+        "title": "有理数的加法与减法",
+        "page": 25,
+        "nodes": [
+          "rational-operations",
+          "number-line"
+        ],
+        "question": "把加减看成位置变化，怎样解释减去一个负数？"
+      },
+      {
+        "id": "2.2",
+        "chapter": "2",
+        "title": "有理数的乘法与除法",
+        "page": 38,
+        "nodes": [
+          "rational-operations"
+        ],
+        "question": "乘法法则需要与分配律一致。负负得正能否由这个要求说明？"
+      },
+      {
+        "id": "2.3",
+        "chapter": "2",
+        "title": "有理数的乘方",
+        "page": 51,
+        "nodes": [
+          "powers",
+          "scientific-notation"
+        ],
+        "question": "指数数的是多少个因子，还是乘上几倍？括号又决定了什么？"
+      },
+      {
+        "id": "3.1",
+        "chapter": "3",
+        "title": "列代数式表示数量关系",
+        "page": 69,
+        "nodes": [
+          "algebra-expressions",
+          "primary-letters"
+        ],
+        "question": "先用完整的句子说明数量关系，再判断字母可以取哪些值。"
+      },
+      {
+        "id": "3.2",
+        "chapter": "3",
+        "title": "代数式的值",
+        "page": 79,
+        "nodes": [
+          "algebra-expressions"
+        ],
+        "question": "同一个字母在同一个式子里能不能随意代入不同的数？"
+      },
+      {
+        "id": "4.1",
+        "chapter": "4",
+        "title": "整式",
+        "page": 89,
+        "nodes": [
+          "polynomials",
+          "algebra-expressions"
+        ],
+        "question": "把式子看成若干项，每项中的数字和字母分别承担什么角色？"
+      },
+      {
+        "id": "4.2",
+        "chapter": "4",
+        "title": "整式的加法与减法",
+        "page": 95,
+        "nodes": [
+          "polynomial-addition"
+        ],
+        "question": "合并同类项为什么只能合并系数？用分配律而非口诀解释。"
+      },
+      {
+        "id": "5.1",
+        "chapter": "5",
+        "title": "方程",
+        "page": 111,
+        "nodes": [
+          "equality",
+          "linear-equation"
+        ],
+        "question": "一个数代入后怎样才算是解？等号表示的关系有没有改变？"
+      },
+      {
+        "id": "5.2",
+        "chapter": "5",
+        "title": "解一元一次方程",
+        "page": 120,
+        "nodes": [
+          "linear-equation"
+        ],
+        "question": "每次变形是否保留同一批解？把省略的两边同加同减步骤写出来。"
+      },
+      {
+        "id": "5.3",
+        "chapter": "5",
+        "title": "实际问题与一元一次方程",
+        "page": 133,
+        "nodes": [
+          "linear-models",
+          "linear-equation"
+        ],
+        "question": "先找相等的两种数量，再列方程。得到的解是否符合实际范围和单位？"
+      },
+      {
+        "id": "6.1",
+        "chapter": "6",
+        "title": "几何图形",
+        "page": 150,
+        "nodes": [
+          "solid-views",
+          "projection",
+          "primary-shapes"
+        ],
+        "question": "同一物体从不同方向看，为什么可能得到不同的平面图形？"
+      },
+      {
+        "id": "6.2",
+        "chapter": "6",
+        "title": "直线、射线、线段",
+        "page": 162,
+        "nodes": [
+          "lines-segments"
+        ],
+        "question": "比较端点与延伸方向，怎样说明直线、射线、线段的区别？"
+      },
+      {
+        "id": "6.3",
+        "chapter": "6",
+        "title": "角",
+        "page": 170,
+        "nodes": [
+          "angles"
+        ],
+        "question": "角的大小取决于两边张开的程度，还是画出来的边有多长？"
+      },
+      {
+        "id": "practice-base",
+        "chapter": "practice",
+        "title": "进位制的认识与探究",
+        "page": 63,
+        "nodes": [
+          "primary-arithmetic",
+          "powers"
+        ],
+        "question": "如果每位逢二进一，位置的权重如何变化？哪些乘方知识能帮助解释？"
+      },
+      {
+        "id": "practice-field",
+        "chapter": "practice",
+        "title": "设计学校田径运动会比赛场地",
+        "page": 189,
+        "nodes": [
+          "design-project",
+          "primary-units",
+          "primary-shapes"
+        ],
+        "question": "先确定尺寸、单位和限制，再把场地拆成可计算的图形；哪些假设需要实地验证？"
+      }
+    ]
+  },
+  "limitations": [
+    "未读取教材PDF；七下为通用课程范围，未确认教材映射",
+    "上游审查和测试未在本次重跑；非已审定游戏课程"
+  ],
+  "units": [
+    {
+      "term": "g7-1",
+      "group": "有理数与数轴",
+      "id": "rational-numbers",
+      "title": "正负数与有理数：先选基准，再表示数量",
+      "topics": [
+        "正负数与基准",
+        "0的意义",
+        "整数与分数分类",
+        "分数与有限小数",
+        "数轴大小比较"
+      ],
+      "objective": "用收入与支出、零上与零下等例子理解正负数，并给这些数分类。",
+      "prerequisites": [
+        "primary-fractions",
+        "primary-decimals"
+      ],
+      "sourceScope": "原创通用教学；上册目录已与项目导入教材关联，本文件未逐页校对整册教材，不冒充教材逐页讲解。"
+    },
+    {
+      "term": "g7-1",
+      "group": "有理数与数轴",
+      "id": "number-line",
+      "title": "数轴：用点的位置表示数",
+      "topics": [
+        "原点/正方向/单位长度",
+        "有理数的表示和比较",
+        "分数小数定位",
+        "两点距离与单位换算",
+        "模型与实际编号差别"
+      ],
+      "objective": "画清数轴上的原点、正方向和单位长度，用点的位置比较数的大小。",
+      "prerequisites": [
+        "rational-numbers"
+      ],
+      "sourceScope": "初一通用核心课程；上册依已导入教材目录关联，下册待提供教材逐页映射；原创讲解与变式。"
+    },
+    {
+      "term": "g7-1",
+      "group": "有理数与数轴",
+      "id": "opposite-number",
+      "title": "相反数：同一原点下的另一边",
+      "topics": [
+        "相反数及0",
+        "符号−a的意义",
+        "双重/多重负号",
+        "相反数与数轴对称",
+        "相加为0及字母整体"
+      ],
+      "objective": "在数轴上找一个数的相反数，说明−a为什么不一定是负数。",
+      "prerequisites": [
+        "number-line"
+      ],
+      "sourceScope": "初一通用核心课程；上册依已导入教材目录关联，下册待提供教材逐页映射；原创讲解与变式。"
+    },
+    {
+      "term": "g7-1",
+      "group": "有理数与数轴",
+      "id": "absolute-value",
+      "title": "绝对值：一个数对应的点离原点多远",
+      "topics": [
+        "距离定义与非负性",
+        "分情况表达",
+        "负数大小比较",
+        "含绝对值运算",
+        "绝对值方程与边界",
+        "举反例"
+      ],
+      "objective": "用点到原点的距离解释绝对值，说明它为什么不能是负数。",
+      "prerequisites": [
+        "number-line",
+        "opposite-number"
+      ],
+      "sourceScope": "初一通用核心课程；上册依已导入教材目录关联，下册待提供教材逐页映射；原创讲解与变式。"
+    },
+    {
+      "term": "g7-1",
+      "group": "有理数与数轴",
+      "id": "rational-operations",
+      "title": "有理数四则运算：符号变化要有理由",
+      "topics": [
+        "有理数加减",
+        "加法交换结合律",
+        "乘法符号与分配律",
+        "负负得正的依据",
+        "倒数与除法",
+        "除数非零",
+        "混合运算与顺序"
+      ],
+      "objective": "用数轴移动等方法理解正负数怎样计算，并说明符号变化的理由。",
+      "prerequisites": [
+        "absolute-value",
+        "primary-order"
+      ],
+      "sourceScope": "原创通用教学；上册目录已与项目导入教材关联，本文件未逐页校对整册教材，不冒充教材逐页讲解。"
+    },
+    {
+      "term": "g7-1",
+      "group": "有理数与数轴",
+      "id": "powers",
+      "title": "乘方：相同因子的简写",
+      "topics": [
+        "正整数乘方",
+        "括号与符号",
+        "奇偶指数",
+        "混合运算",
+        "同底数正整数乘法联系",
+        "进位制探索"
+      ],
+      "objective": "把相同的数相乘写成乘方，分清底数、指数、括号和负号。",
+      "prerequisites": [
+        "rational-operations"
+      ],
+      "sourceScope": "初一通用核心课程；上册依已导入教材目录关联，下册待提供教材逐页映射；原创讲解与变式。"
+    },
+    {
+      "term": "g7-1",
+      "group": "有理数与数轴",
+      "id": "scientific-notation",
+      "title": "科学记数法与近似数：让大小和精度都说清",
+      "topics": [
+        "大数与小数的科学记数法",
+        "负整数指数的定义",
+        "标准形式",
+        "数量级比较",
+        "四舍五入",
+        "近似数精确位"
+      ],
+      "objective": "用10的乘方表示很大或很小的数，并说明近似数精确到了哪一位。",
+      "prerequisites": [
+        "powers",
+        "primary-decimals"
+      ],
+      "sourceScope": "原创通用教学；上册目录已与项目导入教材关联，本文件未逐页校对整册教材，不冒充教材逐页讲解。"
+    },
+    {
+      "term": "g7-1",
+      "group": "代数式与整式加减",
+      "id": "algebra-expressions",
+      "title": "代数式：把一句数量关系写成式子",
+      "topics": [
+        "字母与数量含义",
+        "列代数式",
+        "乘除简写",
+        "括号与运算顺序",
+        "负数代入",
+        "取值范围与单位",
+        "式子和等式"
+      ],
+      "objective": "说清式子各部分表示什么，代入数值后按正确顺序计算。",
+      "prerequisites": [
+        "primary-letters",
+        "rational-operations"
+      ],
+      "sourceScope": "原创通用教学；上册目录已与项目导入教材关联，本文件未逐页校对整册教材，不冒充教材逐页讲解。"
+    },
+    {
+      "term": "g7-1",
+      "group": "代数式与整式加减",
+      "id": "polynomials",
+      "title": "单项式与多项式：看清每一项在做什么",
+      "topics": [
+        "单项式与多项式",
+        "系数符号",
+        "次数与常数项",
+        "同类项",
+        "整式",
+        "分配律与合并依据"
+      ],
+      "objective": "认识项、系数和次数，判断哪些项可以合并。",
+      "prerequisites": [
+        "algebra-expressions",
+        "powers"
+      ],
+      "sourceScope": "原创通用教学；上册目录已与项目导入教材关联，本文件未逐页校对整册教材，不冒充教材逐页讲解。"
+    },
+    {
+      "term": "g7-1",
+      "group": "代数式与整式加减",
+      "id": "polynomial-addition",
+      "title": "整式加减：每一次去括号都能说明理由",
+      "topics": [
+        "整式的和差",
+        "去括号依据",
+        "负号作用整体",
+        "分配律",
+        "合并同类项",
+        "化简求值",
+        "代入检查与反例"
+      ],
+      "objective": "用分配律解释去括号和合并同类项，检查负号有没有处理正确。",
+      "prerequisites": [
+        "polynomials"
+      ],
+      "sourceScope": "原创通用教学；上册目录已与项目导入教材关联，本文件未逐页校对整册教材，不冒充教材逐页讲解。"
+    },
+    {
+      "term": "g7-1",
+      "group": "一元一次方程",
+      "id": "equality",
+      "title": "等式性质：让相等关系保持不变",
+      "topics": [
+        "等式与方程解",
+        "等式加减性质",
+        "乘除性质与非零条件",
+        "移项依据",
+        "系数化为1",
+        "等价变形与丢解",
+        "代回原方程"
+      ],
+      "objective": "说明等式两边怎样同时变化还能保持相等，并学会检查方程的解。",
+      "prerequisites": [
+        "algebra-expressions"
+      ],
+      "sourceScope": "原创通用教学；上册目录已与项目导入教材关联，本文件未逐页校对整册教材，不冒充教材逐页讲解。"
+    },
+    {
+      "term": "g7-1",
+      "group": "一元一次方程",
+      "id": "linear-equation",
+      "title": "方程：保留相等，逐步找到未知数",
+      "topics": [
+        "解的含义与类型",
+        "等式变形",
+        "去括号/移项/系数化1",
+        "去分母",
+        "无解/恒等式边界",
+        "代回检验"
+      ],
+      "objective": "说明解方程每一步的理由，最后把答案代回原方程检查。",
+      "prerequisites": [
+        "equality",
+        "polynomial-addition"
+      ],
+      "sourceScope": "初一通用核心课程；上册依已导入教材目录关联，下册待提供教材逐页映射；原创讲解与变式。"
+    },
+    {
+      "term": "g7-1",
+      "group": "一元一次方程",
+      "id": "linear-models",
+      "title": "一元一次方程建模：先找相等的两份量",
+      "topics": [
+        "设未知量与单位",
+        "等量关系",
+        "固定量与变量",
+        "百分率基准",
+        "行程与单位",
+        "价格利润",
+        "实际范围检验"
+      ],
+      "objective": "找出实际问题中的未知量和相等关系，说明算出的答案是否符合实际。",
+      "prerequisites": [
+        "linear-equation",
+        "primary-units"
+      ],
+      "sourceScope": "原创通用教学；上册目录已与项目导入教材关联，本文件未逐页校对整册教材，不冒充教材逐页讲解。"
+    },
+    {
+      "term": "g7-1",
+      "group": "几何图形初步",
+      "id": "lines-segments",
+      "title": "从物体到图形：点、线、面与线段",
+      "topics": [
+        "点线面体",
+        "三视图的观察方向",
+        "展开图与折叠",
+        "直线射线线段",
+        "两点确定直线",
+        "两点间距离",
+        "中点定义",
+        "线段和差与顺序"
+      ],
+      "objective": "认识点线面体、视图与展开图，分清直线、射线和线段，用位置条件解释线段的和差与中点。",
+      "prerequisites": [
+        "primary-shapes"
+      ],
+      "sourceScope": "原创通用教学；上册目录已与项目导入教材关联，本文件未逐页校对整册教材，不冒充教材逐页讲解。"
+    },
+    {
+      "term": "g7-1",
+      "group": "几何图形初步",
+      "id": "angles",
+      "title": "角：量张开的程度，不量边画得多长",
+      "topics": [
+        "角的表示",
+        "角度度量",
+        "度分秒换算",
+        "角的和差",
+        "角平分线",
+        "余角与补角",
+        "方位角"
+      ],
+      "objective": "解释角的大小为什么不由边画得多长决定，利用余角、补角计算角度。",
+      "prerequisites": [
+        "lines-segments",
+        "primary-units"
+      ],
+      "sourceScope": "原创通用教学；上册目录已与项目导入教材关联，本文件未逐页校对整册教材，不冒充教材逐页讲解。"
+    },
+    {
+      "term": "g7-1",
+      "group": "联系与应用",
+      "id": "distance-sum",
+      "title": "距离和：为什么最小值不只在中点取得",
+      "topics": [
+        "两点距离",
+        "三段位置一般推导",
+        "最小值与全部达到位置",
+        "限制范围",
+        "整数条件",
+        "整体平移"
+      ],
+      "objective": "把绝对值式子读成数轴上的距离，探究距离和最小是多少，以及哪些位置能达到最小值。",
+      "prerequisites": [
+        "absolute-value",
+        "rational-operations",
+        "algebra-expressions",
+        "polynomial-addition"
+      ],
+      "sourceScope": "初一通用核心课程；上册依已导入教材目录关联，下册待提供教材逐页映射；原创讲解与变式。"
+    },
+    {
+      "term": "g7-1",
+      "group": "联系与应用",
+      "id": "modeling-process",
+      "title": "数学建模：把现实问题变成可以检查的关系",
+      "topics": [
+        "目标与数据",
+        "事实假设与未知",
+        "图表与字母表示",
+        "等量和不等关系",
+        "整数可行性",
+        "检查改进与条件性结论"
+      ],
+      "objective": "把实际问题说清楚，作出合理简化，列出数学关系，再回到实际情况检查答案。",
+      "prerequisites": [
+        "linear-models"
+      ],
+      "sourceScope": "原创通用教学；上册目录已与项目导入教材关联，本文件未逐页校对整册教材，不冒充教材逐页讲解。"
+    },
+    {
+      "term": "g7-1",
+      "group": "联系与应用",
+      "id": "design-project",
+      "title": "场地设计：尺寸、比例、限制一起检查",
+      "topics": [
+        "用途限制与测量",
+        "比例尺",
+        "面积比例",
+        "分割与扣除",
+        "周长面积单位",
+        "材料费用",
+        "方案比较与现场验证"
+      ],
+      "objective": "把设计要求变成图形的条件，通过制作和测量检查是否达到要求。",
+      "prerequisites": [
+        "axis-symmetry",
+        "rotation",
+        "arcs-sectors"
+      ],
+      "sourceScope": "原创通用教学；上册目录已与项目导入教材关联，本文件未逐页校对整册教材，不冒充教材逐页讲解。"
+    },
+    {
+      "term": "g7-2",
+      "group": "相交线、平行线与平移",
+      "id": "parallel-perpendicular",
+      "title": "相交、垂直与平行：从角的关系找依据",
+      "topics": [
+        "对顶角与邻补角",
+        "垂直与点到直线距离",
+        "同位角内错角同旁内角",
+        "平行线判定与性质",
+        "平行基本事实"
+      ],
+      "objective": "用角之间的关系研究垂直和平行，分清“已知平行能得到什么”和“怎样判断平行”。",
+      "prerequisites": [
+        "angles"
+      ],
+      "sourceScope": "通用七下知识结构，待用户教材逐页映射"
+    },
+    {
+      "term": "g7-2",
+      "group": "相交线、平行线与平移",
+      "id": "geometric-proof",
+      "title": "从猜想到证明：为什么几个例子还不够",
+      "topics": [
+        "命题与题设结论",
+        "观察猜想证明区别",
+        "从定义作证明",
+        "合格反例",
+        "逆命题与循环论证",
+        "条件范围"
+      ],
+      "objective": "分清观察、猜想和证明；说明推理每一步的依据，并用反例检查说法。",
+      "prerequisites": [
+        "parallel-perpendicular"
+      ],
+      "sourceScope": "通用七下知识结构，待用户教材逐页映射"
+    },
+    {
+      "term": "g7-2",
+      "group": "相交线、平行线与平移",
+      "id": "translation",
+      "title": "平移：每个点都怎样移动",
+      "topics": [
+        "平移定义与对应点",
+        "整体移动操作",
+        "长度角度与对应点连线性质",
+        "共线特殊情况",
+        "与旋转翻折的区别",
+        "坐标平移联系"
+      ],
+      "objective": "用方向和距离描述平移，说明平移前后的点与线段有什么关系。",
+      "prerequisites": [
+        "parallel-perpendicular"
+      ],
+      "sourceScope": "通用七下知识结构，待用户教材逐页映射"
+    },
+    {
+      "term": "g7-2",
+      "group": "平方根、立方根与实数",
+      "id": "square-roots",
+      "title": "平方根：哪些数的平方等于这个数",
+      "topics": [
+        "平方根与算术平方根",
+        "非负范围",
+        "平方与绝对值",
+        "根式乘除条件",
+        "估值/近似",
+        "长度单位与反例"
+      ],
+      "objective": "分清平方根和算术平方根，说明哪些数有平方根。",
+      "prerequisites": [
+        "powers",
+        "number-line"
+      ],
+      "sourceScope": "初一通用核心课程；上册依已导入教材目录关联，下册待提供教材逐页映射；原创讲解与变式。"
+    },
+    {
+      "term": "g7-2",
+      "group": "平方根、立方根与实数",
+      "id": "cube-roots",
+      "title": "立方根：反过来寻找三个相同的因子",
+      "topics": [
+        "立方根定义与记号",
+        "正负零立方根",
+        "唯一性与平方根比较",
+        "分数小数开立方",
+        "立方检验与单位",
+        "立方根估值"
+      ],
+      "objective": "寻找立方后得到已知数的数，比较立方根与平方根有什么不同。",
+      "prerequisites": [
+        "powers"
+      ],
+      "sourceScope": "通用七下知识结构，待用户教材逐页映射"
+    },
+    {
+      "term": "g7-2",
+      "group": "平方根、立方根与实数",
+      "id": "real-numbers",
+      "title": "实数：有理数之外还有哪些数",
+      "topics": [
+        "有理数含循环小数",
+        "无理数定义与反例",
+        "根号2无理性证明",
+        "实数分类与数轴",
+        "估值与近似",
+        "实数运算条件"
+      ],
+      "objective": "分清有理数与无理数，了解实数与数轴上点的位置怎样对应。",
+      "prerequisites": [
+        "square-roots",
+        "cube-roots"
+      ],
+      "sourceScope": "通用七下知识结构，待用户教材逐页映射"
+    },
+    {
+      "term": "g7-2",
+      "group": "平面位置",
+      "id": "coordinates",
+      "title": "平面直角坐标系：用两个数确定位置",
+      "topics": [
+        "坐标系约定",
+        "有序数对读画",
+        "象限与坐标轴边界",
+        "坐标平移",
+        "水平竖直距离",
+        "路线与直线距离区别"
+      ],
+      "objective": "用两条互相垂直的数轴确定平面上点的位置，把图形与数联系起来。",
+      "prerequisites": [
+        "number-line",
+        "primary-coordinate"
+      ],
+      "sourceScope": "通用七下知识结构，待用户教材逐页映射"
+    },
+    {
+      "term": "g7-2",
+      "group": "方程组与不等式",
+      "id": "linear-systems",
+      "title": "二元一次方程组：同时满足两条关系",
+      "topics": [
+        "二元一次方程与解",
+        "方程组同时成立",
+        "代入消元",
+        "加减消元",
+        "实际建模与整数单位",
+        "无解与无数解",
+        "三元一次选学联系",
+        "回代检验"
+      ],
+      "objective": "寻找同时满足两个方程的一对数，理解为什么可以代入或消元。",
+      "prerequisites": [
+        "linear-equation"
+      ],
+      "sourceScope": "通用七下知识结构，待用户教材逐页映射"
+    },
+    {
+      "term": "g7-2",
+      "group": "方程组与不等式",
+      "id": "inequalities",
+      "title": "不等式与不等式组：条件允许哪些数",
+      "topics": [
+        "符号与解的范围",
+        "同加同减",
+        "正负数乘除与反向依据",
+        "一元一次不等式求解",
+        "数轴空实端点",
+        "不等式组交集",
+        "整数实际解",
+        "去分母符号条件"
+      ],
+      "objective": "解释不等式两边同乘负数为什么要改变不等号方向，并找出同时满足多个条件的数。",
+      "prerequisites": [
+        "linear-equation",
+        "number-line"
+      ],
+      "sourceScope": "通用七下知识结构，待用户教材逐页映射"
+    },
+    {
+      "term": "g7-2",
+      "group": "数据收集与表示",
+      "id": "sampling",
+      "title": "收集数据：调查谁，怎样选",
+      "topics": [
+        "总体个体样本容量",
+        "全面与抽样调查",
+        "合理随机抽样",
+        "选择偏差与自愿回复",
+        "统一问法与单位",
+        "缺失记录",
+        "结果范围与限制"
+      ],
+      "objective": "分清想了解的全部对象与实际调查的部分对象，判断样本能否代表整体。",
+      "prerequisites": [
+        "primary-data"
+      ],
+      "sourceScope": "通用七下知识结构，待用户教材逐页映射"
+    },
+    {
+      "term": "g7-2",
+      "group": "数据收集与表示",
+      "id": "statistical-charts",
+      "title": "统计图：让图回答合适的问题",
+      "topics": [
+        "数据表与选择图形",
+        "条形图数量比较",
+        "扇形图比例与角度",
+        "折线图趋势",
+        "多选重叠限制",
+        "刻度与截断",
+        "比例人数区别"
+      ],
+      "objective": "根据要回答的问题选择统计图表，并识别容易让人误读的画法。",
+      "prerequisites": [
+        "primary-data",
+        "sampling"
+      ],
+      "sourceScope": "通用七下知识结构，待用户教材逐页映射"
+    },
+    {
+      "term": "g7-2",
+      "group": "数据收集与表示",
+      "id": "histograms",
+      "title": "频数与直方图：数据集中在哪一段",
+      "topics": [
+        "频数频率",
+        "极差组距",
+        "分组边界",
+        "等组距频数直方图",
+        "划记与总数检查",
+        "组内细节丢失",
+        "样本分布的解释范围"
+      ],
+      "objective": "把数据分组，解释每组有多少个、占总数多少，并看懂直方图。",
+      "prerequisites": [
+        "statistical-charts",
+        "primary-ratio"
+      ],
+      "sourceScope": "通用七下知识结构，待用户教材逐页映射"
+    },
+    {
+      "term": "g7-2",
+      "group": "数据收集与表示",
+      "id": "sample-estimation",
+      "title": "用样本估计总体：怎么算，也要怎样说",
+      "topics": [
+        "样本代表性前提",
+        "样本频率估计比例",
+        "比例估计人数",
+        "抽样偶然性",
+        "偏样本与缺失",
+        "依据与不确定性报告"
+      ],
+      "objective": "用调查的一部分对象估计整体情况，并说明估计有哪些不确定之处。",
+      "prerequisites": [
+        "sampling",
+        "histograms",
+        "averages"
+      ],
+      "sourceScope": "通用七下知识结构，待用户教材逐页映射"
+    },
+    {
+      "term": "g7-2",
+      "group": "数据收集与表示",
+      "id": "data-project",
+      "title": "数据小项目：从一个问题走到有依据的结论",
+      "topics": [
+        "可调查问题",
+        "记录规则与预测",
+        "真实实施与缺失",
+        "表格图形选择",
+        "相关与因果区别",
+        "报告与复查",
+        "自主小项目与效果边界"
+      ],
+      "objective": "围绕一个真实问题设计调查、整理数据，并说明结论的依据和局限。",
+      "prerequisites": [
+        "sample-estimation",
+        "variance"
+      ],
+      "sourceScope": "通用七下知识结构，待用户教材逐页映射"
+    }
+  ]
+}

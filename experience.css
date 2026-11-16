@@ -1,0 +1,75 @@
+/* The ocean is the main surface. Reading and reasoning stay still. */
+body.v03-layout{background:#e8f0ee;color:#213f49;font-size:16px}
+.v03-layout .topbar{height:76px;padding-inline:4%;gap:24px;background:#f3f7f3;border-color:#c6d6d1}
+.v03-layout .brand{font-size:22px;letter-spacing:1px}.v03-layout .brand small{font-size:11px}.v03-layout .topbar nav .future{display:none}
+.v03-layout .layout{display:block;max-width:1160px;padding:28px 32px}.v03-layout .map-panel,.v03-layout .mission-panel{display:none}
+.v03-layout.panels-open .layout{display:grid;grid-template-columns:190px minmax(360px,1fr) 220px;max-width:1660px;gap:24px}.v03-layout.panels-open .map-panel,.v03-layout.panels-open .mission-panel{display:block}
+.v03-layout .expedition-heading{margin-bottom:18px}.v03-layout .expedition-heading h2{font-size:30px;color:#183f4b}.v03-layout .expedition-heading .section-label{font-size:12px;letter-spacing:.5px}.v03-layout .ocean-frame{height:540px;background:#123d4d;border:1px solid #345b66;border-radius:12px}
+.experience-bar{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-bottom:16px}
+.experience-bar button{background:none;color:#345b64;padding:10px 14px;min-height:44px;border-radius:6px;font-size:14px}.experience-tools{display:flex;gap:5px;flex-wrap:wrap}.experience-tools button{padding-inline:9px}
+.mode-switch{display:flex;border:1px solid #b6cac6;border-radius:8px;padding:3px}.mode-switch [aria-pressed=true]{background:#234f59;color:#eefaf6}
+.adventure-brief{display:flex;align-items:center;gap:16px;padding:14px 0 20px}.adventure-brief[hidden]{display:none}.guide-mark{display:grid;place-items:center;flex-shrink:0;width:56px;height:56px;border-radius:50%;border:2px solid #a9b899;background:#214c59;color:#eed393;font-size:25px;font-family:KaiTi,serif}.adventure-brief h2{margin:5px 0;font-size:22px}.adventure-brief p{margin:0;font-size:14px;line-height:1.8;color:#4f6a6d}.adventure-brief .task-kicker{font-size:12px;color:#5d7977}.route-completion{margin-left:auto;white-space:nowrap;font-size:13px;color:#4b7066}
+.adventure-mode .feeding-condition,.adventure-mode .fish-legend,.adventure-mode .feeding-hud,.adventure-mode .course-toolbar label{display:none}.adventure-mode .course-toolbar{justify-content:flex-end;margin:0}.adventure-mode .course-toolbar button{font-size:12px;padding:5px 9px;min-height:36px}.adventure-mode .sea-status-row{padding:0 2px 10px}.adventure-mode .sea-status-row .hud{min-width:0}.adventure-mode .control-strip .legend-dot,.adventure-mode .control-strip span:nth-child(3){display:none}
+.v03-layout .feeding-condition{height:auto;max-height:220px;min-height:100px;font-size:17px;line-height:1.8;background:#f6faf6}
+.adventure-task-strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;padding:22px 0;border-bottom:1px solid #b8ceca}.adventure-task-strip[hidden]{display:none}.mission-entry{display:flex;align-items:center;gap:12px;background:none;text-align:left;color:#2d5059;padding:0;min-height:88px}.mission-entry svg{width:78px;flex-shrink:0;border-radius:10px}.mission-entry small{font-size:11px;color:#6d847e}.mission-entry b{display:block;font-size:18px;margin:5px 0}.mission-entry>span>span{display:block;font-size:12px;color:#54736d}.mission-entry:disabled{opacity:.5}.mission-entry.repaired b{color:#28694e}
+.experience-save{font-size:14px;line-height:1.8;min-height:0;margin:0}.experience-save.warning{margin:12px 0;padding:12px 16px;background:#f9ecd4;color:#735624;border-left:3px solid #c6a259}.recovery-tools{display:flex;gap:10px;flex-wrap:wrap}.upgrade-choice{display:flex;align-items:center;gap:10px;flex-wrap:wrap;background:#dce9e2;padding:12px 14px;margin-bottom:16px;font-size:14px}.upgrade-choice button{min-height:44px;padding:8px 14px;border-radius:5px;color:#2a524b;background:#f5faf3}
+.v03-layout .learning-trail{margin-top:5px}.v03-layout .learning-trail p,.v03-layout .control-strip,.v03-layout .game-notice{font-size:13px}.v03-layout footer{font-size:12px}
+dialog.adventure-panel{width:min(850px,calc(100vw - 32px));max-height:92vh;padding:24px 32px;border:1px solid #4b7981;background:#0e3444;color:#e2f1ed;border-radius:14px;overscroll-behavior:contain}
+.adventure-panel::backdrop{background:#031c2cbb;backdrop-filter:blur(5px)}.task-top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-bottom:14px;border-bottom:1px solid #52737a66}.task-top span{font-size:12px;color:#adc7c5}.task-top button{width:44px;height:44px;font-size:27px;background:transparent;color:inherit}.task-kicker{font-size:12px;color:#b1d7ce;letter-spacing:.3px;margin:20px 0 7px}.task-heading{display:flex;align-items:center;justify-content:space-between;gap:12px}.task-heading h2{font-size:26px;margin:6px 0}.task-heading>span{font-size:12px;color:#b4cec9}.adventure-panel .task-prompt{font-size:19px;line-height:1.8;margin:14px 0}.task-axis{display:block;width:100%;margin:12px auto 0;background:#082a39;border-radius:10px}.task-axis text{font-size:15px;stroke:none;fill:#d4e8e3;text-anchor:middle}.task-axis .verify-path{stroke-dasharray:500;animation:trace-route .7s ease both}.task-explanation{font-size:16px;min-height:64px;line-height:1.8;color:#c8e5db}
+.adventure-panel button{min-height:44px;padding:9px 16px;background:#214e5c;color:#d6eae4;border:1px solid #54828a;border-radius:6px;font-size:15px}.adventure-panel button.primary{background:#e2c47f;border-color:#e2c47f;color:#193b46;font-weight:700}.adventure-panel button:disabled{opacity:.5}.adventure-panel :focus-visible{outline:3px solid #efd490;outline-offset:3px}.task-actions{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:18px 0 8px;flex-wrap:wrap}.task-bottom{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:25px;padding:16px 0 0;border-top:1px solid #52737a66}.task-bottom button{font-size:13px;background:none;border:0;padding-left:0}.task-bottom span{font-size:11px;color:#9fbfbc}
+.answer-field{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:16px;margin:14px 0}.answer-field small{font-size:12px;color:#afcac5}.number-control{display:flex;align-items:center;gap:6px}.number-control input{width:92px;min-height:46px;text-align:center;font:600 23px 'Microsoft YaHei',sans-serif;color:#f3dfad;background:#082a39;border:1px solid #6c9699;border-radius:5px}.number-control button{width:46px;padding:0;font-size:23px}
+.adventure-panel fieldset{border:0;padding:0;margin:20px 0 0}.adventure-panel legend{font-size:14px;margin-bottom:10px;color:#bcd8ce}.reason-choice{display:flex;align-items:flex-start;gap:12px;min-height:48px;padding:12px 14px;margin:8px 0;border:1px solid #49717a;border-radius:7px;line-height:1.7;font-size:15px;background:#143e4c}.reason-choice:has(input:checked){border-color:#e1c680;background:#244e55}.reason-choice input{margin-top:6px;accent-color:#e1c680;width:17px;height:17px;flex-shrink:0}.task-feedback{background:#1c4751;color:#d5e7df;border-left:3px solid #aebfaf;padding:12px 15px;margin:16px 0;line-height:1.8;font-size:15px}.task-feedback.is-correct{border-color:#8de0b6}.task-warning{background:#614c2a;padding:12px;line-height:1.8}.mission-finish{text-align:center;padding:24px 0}.mission-finish>svg{width:130px;margin:auto}.mission-finish h2{font-size:28px}.mission-finish p{font-size:16px;color:#c3ded7}.mission-finish .task-actions{justify-content:center}.journal-missions>section{display:flex;gap:18px;padding:20px 0;border-top:1px solid #49717a}.journal-missions svg{width:80px;align-self:flex-start;flex-shrink:0}.journal-missions h3{margin:5px 0;font-size:19px}.journal-missions p{font-size:14px}
+#settings-panel{width:min(500px,92vw);font-size:16px}.setting-row{display:flex;justify-content:space-between;align-items:center;gap:16px;min-height:65px}.setting-row input[type=checkbox]{width:24px;height:24px;accent-color:#315d59}.setting-row input[type=range]{width:50%}.setting-row select{min-height:44px;font:inherit}#settings-panel p{font-size:15px}
+@keyframes trace-route{from{stroke-dashoffset:500}to{stroke-dashoffset:0}}
+.reduced-motion *{animation:none!important;transition:none!important}
+.task-pause{padding:16px;margin:16px 0;background:#214e5c;border-left:3px solid #e2c47f}.task-pause p{margin:0 0 12px}.task-content[inert]{opacity:.45}
+.activity-actions{display:flex;gap:8px;flex-wrap:wrap}.activity-actions button{border:1px solid #b6cac6;background:#f5faf6}.activity-actions button:last-child{background:#234f59;color:#eefaf6}.v03-layout .experience-tools{gap:3px}.v03-layout .experience-tools button{font-size:12px;padding:8px}.v03-layout .adventure-brief{padding:4px 0 14px}.v03-layout .adventure-brief h2{font-size:19px}.v03-layout .adventure-brief p{font-size:13px}.v03-layout .course-toolbar{margin-bottom:10px}.v03-layout .feeding-condition{min-height:0;max-height:130px;padding:12px 16px}.v03-layout .ocean-frame{height:520px}
+@media(max-width:720px){.v03-layout .ocean-frame{height:440px}.v03-layout .experience-tools button{font-size:13px}.activity-actions{width:100%}.activity-actions button{flex:1}.v03-layout .adventure-brief{padding-top:0}.arithmetic-diagram text:first-child{font-size:28px!important}.arithmetic-diagram text:last-child{font-size:20px!important}}
+@media(max-width:720px){.adventure-panel .task-axis text{font-size:25px}}
+@media(max-width:1050px){.v03-layout.panels-open .layout{grid-template-columns:170px minmax(0,1fr)}.v03-layout.panels-open .mission-panel{grid-column:1/-1}.adventure-task-strip{gap:10px}.mission-entry{gap:8px}.mission-entry svg{width:60px}.mission-entry b{font-size:16px}.experience-bar{gap:10px}}
+@media(max-width:720px){.v03-layout .layout,.v03-layout.panels-open .layout{display:block;padding:20px 16px}.v03-layout .topbar{height:68px;padding-inline:16px;gap:12px}.v03-layout .brand{font-size:19px}.v03-layout .planet-logo{font-size:30px}.v03-layout .topbar nav{display:none}.v03-layout .quiet{margin-left:auto;font-size:12px;padding:8px}.v03-layout .expedition-heading h2{font-size:26px}.v03-layout .expedition-heading{gap:10px}.experience-tools{width:100%;justify-content:space-between}.experience-tools button{font-size:12px;padding:8px}.mode-switch{width:100%}.mode-switch button{flex:1}.adventure-brief{gap:10px;padding-top:5px}.guide-mark{width:44px;height:44px;font-size:22px}.adventure-brief h2{font-size:20px}.adventure-brief p{font-size:13px}.route-completion{display:none}.adventure-task-strip{grid-template-columns:1fr;padding:12px 0;gap:0}.mission-entry{min-height:78px;border-bottom:1px solid #c6d7d0}.mission-entry:last-child{border-bottom:0}.mission-entry svg{width:55px}.mission-entry>span{flex:1}.mission-entry b{display:inline-block;font-size:17px;margin:4px 12px 4px 0}.mission-entry>span>span{display:inline;font-size:12px}.mission-entry small{display:block}.v03-layout .ocean-frame{height:420px}.v03-layout .feeding-condition{font-size:16px;min-height:0}.v03-layout .control-strip{gap:8px;font-size:12px}.v03-layout .learning-trail{display:block}.v03-layout .trail-steps{margin-top:12px}.v03-layout.panels-open .map-panel{padding-bottom:20px}.v03-layout .route{max-height:250px}.v03-layout.panels-open .mission-panel{margin-top:20px}.adventure-panel .task-top{padding-bottom:8px}.adventure-panel .task-heading{display:block}.adventure-panel .task-heading h2{font-size:23px}.adventure-panel .task-prompt{font-size:17px}.adventure-panel .task-axis{margin-top:12px}.adventure-panel .task-axis text{font-size:17px}.adventure-panel .task-explanation{font-size:16px}.adventure-panel .answer-field{gap:8px}.adventure-panel .answer-field small{width:100%}.adventure-panel .reason-choice{font-size:16px;padding:11px 10px}.adventure-panel .task-bottom{display:block}.adventure-panel .task-bottom span{display:block;margin-top:8px}.adventure-panel .journal-missions>section{gap:10px}.adventure-panel .journal-missions svg{width:45px}dialog.adventure-panel{width:calc(100vw - 18px);padding:14px 16px;max-height:94vh}.v03-layout footer{flex-wrap:wrap;font-size:11px}}
+
+.eel-panel{margin:12px 0;padding:12px 16px;border:1px solid #a8c5c2;border-radius:8px;background:#edf6f1}
+.eel-panel p{margin:5px 0 8px;font-size:14px;line-height:1.55}
+.eel-actions{display:flex;gap:8px;flex-wrap:wrap}
+.eel-actions button{min-height:40px}
+.device-hint{margin:0;font-size:14px;flex-basis:100%;line-height:1.5}
+.eel-window{overflow:hidden;height:68px;border-radius:7px;background:linear-gradient(#16475b,#356d73);border-bottom:8px solid #b2a27a}
+.eel-window span{display:block;width:max-content;padding-top:14px;font-size:30px;animation:eel-window-patrol 4s ease-in-out infinite alternate}
+@keyframes eel-window-patrol{from{margin-left:8%}to{margin-left:76%}}
+.reduced-motion .eel-window span{animation:none;margin-left:45%}
+@media(prefers-reduced-motion:reduce){.eel-window span{animation:none;margin-left:45%}}
+
+#panel-content > .question-prompt {
+  margin: 14px 0 18px;
+  color: #183f4c;
+  font-size: clamp(20px, 3.4vw, 24px);
+  font-weight: 700;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+}
+
+.reward-tools {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  margin: 8px 0 12px;
+  padding: 10px 14px;
+  background: #f1f8f4;
+  border: 1px solid #a8c5c2;
+  border-radius: 8px;
+}
+.reward-tools[hidden] { display: none; }
+.reward-tools .device-hint { width: 100%; }
+#game canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.review-filters{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0}
+.review-filters label{display:flex;align-items:center;gap:5px}
+.review-filters select{max-width:180px;font:inherit}
+.review-card{overflow-wrap:anywhere}
+.review-card details{margin:8px 0}
+[data-review-mode][aria-pressed=true]{background:#dceee7;color:#174637}

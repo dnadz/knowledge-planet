@@ -206,9 +206,8 @@ export function drawPracticeQuestion(bank, seen, skill, random=Math.random, exis
   const eligible=preferred.length?preferred:remaining;
   const previous=bank.find(q=>q.id===seen.at(-1));
   const supported=eligible.filter(q=>q.options.every(value=>existing.includes(value)));
-  const supportedElsewhere=remaining.filter(q=>q.options.every(value=>existing.includes(value)));
-  const familiar=remaining.filter(q=>existing.includes(q.answer));
-  const candidates=supported.length?supported:supportedElsewhere.length?supportedElsewhere:familiar.length?familiar:eligible;
+  const familiar=eligible.filter(q=>existing.includes(q.answer));
+  const candidates=supported.length?supported:familiar.length?familiar:eligible;
   const ranked=candidates.map(q=>({
     q, cost:2*q.options.filter(value=>!existing.includes(value)).length
       +Number(existing.length>0&&!existing.includes(q.answer)),

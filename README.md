@@ -1,36 +1,7 @@
-# 知识星球 · 数学海域
+# 知识星球 · 海洋远航
 
-知识星球是一个面向七年级的单人网页数学游戏。玩家操控小海龟，寻找带有正确答案的生物，在庇护所查看图解，再挑战各海域的守卫。
+Windows 用户下载 [KnowledgePlanet.exe](windows/KnowledgePlanet.exe?raw=true) 后双击。程序在本机启动游戏，并用默认浏览器打开 http://127.0.0.1:4339/ 。需要 Windows 上的 .NET Framework 4.5 或以上，无需另装 Node.js。浏览器存档留在本机，同一浏览器与地址可读取已有记录。若旧版服务占用了 4339，关闭旧服务后重新打开 EXE。退出可在任务管理器结束 KnowledgePlanet.exe。此版本为未签名的离线试玩版。
 
-当前版本为 **v0.1.0**，包含 13 个海域、37 个关卡知识点和 1,300 道觅食题。题库采用题型模板和数值变体，七年级下册内容按通用范围组织。
+所含第三方题目仅供非商业试玩，见 [第三方说明](THIRD_PARTY_NOTICES.md)。
 
-## 本地运行
-
-安装 Node.js 和 npm 后，在仓库目录执行：
-
-```sh
-npm ci
-npm start
-```
-
-打开 [本地游戏](http://127.0.0.1:4318/)。使用方向键或 WASD 游动，也可以按住海面移动。触屏设备可以使用画面中的方向按钮。游戏进度、已见题和错题存放在浏览器本地。
-
-## 验证
-
-```sh
-npm run check
-npm test
-```
-
-启动本地服务后，可运行 `node scripts/verify-resources.mjs` 检查页面资源。
-
-## 项目结构
-
-| 路径 | 内容 |
-| --- | --- |
-| `src/` | 界面、Phaser 场景、课程、题库和游戏规则 |
-| `assets/` | 场景和生物图集 |
-| `test/` | Node.js 自动测试 |
-| `scripts/` | 本地诊断和资源检查 |
-
-课程内容来源及适用许可见 [第三方声明](THIRD_PARTY_NOTICES.md)。本仓库发布游戏源码、教学内容和运行素材。
+开发时运行 npm ci 和 npm start。Windows 下用 Windows PowerShell 执行 desktop/build.ps1 构建单文件 EXE，输出到 test-output/windows。运行 npm test 执行自动测试。

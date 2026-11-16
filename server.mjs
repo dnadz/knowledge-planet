@@ -6,7 +6,7 @@ const types={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8'
 http.createServer(async(req,res)=>{
   try {
     const pathname=decodeURIComponent(new URL(req.url,'http://localhost').pathname);
-    const allowed=pathname==='/'||pathname==='/index.html'||pathname==='/styles.css'||pathname==='/feeding.css'||pathname==='/assets/ocean-creatures-v1.png'||pathname==='/assets/reef-background-v1.png'||pathname==='/assets/answer-fish-v1.png'||pathname==='/assets/stage-backgrounds-v1.png'||pathname==='/assets/guardians-v1.png'||/^\/src\/[a-z0-9-]+\.mjs$/.test(pathname)||pathname==='/node_modules/phaser/dist/phaser.min.js';
+    const allowed=pathname==='/'||pathname==='/index.html'||pathname==='/styles.css'||pathname==='/feeding.css'||pathname==='/experience.css'||pathname==='/assets/ocean-creatures-v1.png'||pathname==='/assets/reef-background-v1.png'||pathname==='/assets/answer-fish-v1.png'||pathname==='/assets/stage-backgrounds-v1.png'||pathname==='/assets/guardians-v1.png'||pathname==='/assets/tiger-shark-v1.png'||pathname==='/assets/cage-fish-v1.png'||/^\/src\/[a-z0-9-]+\.mjs$/.test(pathname)||pathname==='/node_modules/phaser/dist/phaser.min.js';
     if(!allowed){res.writeHead(404);return res.end('Not found');}
     const file=path.join(root,pathname==='/'?'index.html':pathname);
     const content=await readFile(file);res.writeHead(200,{'Content-Type':types[path.extname(file)]||'application/octet-stream','Cache-Control':'no-cache','X-Content-Type-Options':'nosniff'});res.end(content);

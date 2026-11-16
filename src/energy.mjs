@@ -20,6 +20,7 @@ function arithmeticBossQuestion(skill,index,tier,recent){
     const {label,hint}=questionFor(skill,i);
     return {
       id:`boss-${skill}-${level}-${i}`,skill,tier,answer,options,label,
+      subtractNegative:skill==='subtract'&&level<2&&operands[1]<0,
       prompt:`计算 ${expression}，结果是多少？`,
       hint:level===2?'从左到右，先算前两个数，再和第三个数运算。'+hint:hint,
       explanation:`${expression} = ${answer}。${hint}`,

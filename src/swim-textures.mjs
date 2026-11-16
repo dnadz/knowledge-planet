@@ -1,11 +1,11 @@
 import {FRAME_COUNT,swimDeformation} from './visuals.mjs';
-const eyes={fish:[[.875,.51,.038]],turtle:[[.94,.5,.027]],tuna:[[.86,.52,.026]],crab:[[.54,.42,.025],[.72,.41,.025]],octopus:[[.56,.42,.035]],jelly:[],manta:[[.75,.46,.021]],seahorse:[[.66,.22,.025]]};
+const eyes={shark:[],fish:[[.875,.51,.038]],turtle:[[.94,.5,.027]],tuna:[[.86,.52,.026]],crab:[[.54,.42,.025],[.72,.41,.025]],octopus:[[.56,.42,.035]],jelly:[],manta:[[.75,.46,.021]],seahorse:[[.66,.22,.025]]};
 const eyelidColors={fish:'#c4b28a',turtle:'#b2be86',tuna:'#9ebbc5',crab:'#df6e40',octopus:'#54a78c',manta:'#b9c6ad',seahorse:'#b1cad0'};
 export function swimTexture(scene,textureKey,frameKey,kind='fish'){
   const key=`swim-${textureKey}-${frameKey}`;
   if(scene.textures.exists(key))return key;
   const texture=scene.textures.get(textureKey),frame=texture.get(frameKey),source=texture.getSourceImage();
-  const width=160,height=Math.min(240,Math.round(width*frame.cutHeight/frame.cutWidth)),pad=12,w=width+pad*2,h=height+pad*2;
+  const width=256,height=Math.min(240,Math.round(width*frame.cutHeight/frame.cutWidth)),pad=12,w=width+pad*2,h=height+pad*2;
   const sheet=scene.textures.createCanvas(key,w*6,h*4);if(!sheet)return textureKey;
   const ctx=sheet.getContext();ctx.imageSmoothingEnabled=true;
   for(let i=0;i<FRAME_COUNT;i++){
